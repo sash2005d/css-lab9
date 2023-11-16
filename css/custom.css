@@ -1,0 +1,160 @@
+/* Build out your custom CSS here */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poppins:wght@600&family=Source+Serif+4:opsz@8..60&family=Suranna&display=swap');
+
+body {
+    max-width: 60vh;
+    font-size: 0.62rem;
+    margin: 0 auto;
+}
+
+h2{
+    display: inline-block; 
+    font-weight: 400;
+}
+
+
+
+section:nth-child(2) h2  {
+    color: rgb(4, 4, 4);
+    font-family: 'Playfair Display SC', serif;
+    font-size: 3rem;
+    display: inline-block;
+    position: relative;
+    word-spacing: 5rem;
+
+  
+
+   
+}
+
+section:nth-child(2) h2::before{
+    content: url('../images/logo_ottawacitizen.png');
+    position: absolute;
+    
+    left:35%;
+    z-index: -1;
+   
+    
+}
+
+
+section:nth-child(3) h2  {
+    color: white;
+    font-family: 'Source Serif 4', 'Times New Roman', Times, serif ;
+    font-size:2rem;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 0.2rem 0.5rem;
+    z-index: -3;
+
+   
+}
+
+section:nth-child(3) h2::before{
+    content: ' ';
+    display: inline-block;
+    background: 
+    url(../images/the-globe-and-mail-leaf.png)  center no-repeat;
+    background-size: cover;
+   
+    position: absolute;
+    top:0;
+    right: -2.5rem;
+
+    width:30px;
+    height: 30px;
+    
+}
+
+
+
+section:nth-child(4) h2  {
+    color: rgb(0, 0, 0);
+    font-family: 'Suranna', 'Times New Roman', Times, serif ;
+    font-size:2rem;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    background-color:#FAD11C;
+    padding: 0.2rem 0.5rem;
+    word-spacing: 0.8rem;
+    z-index: -1
+    ;
+}
+section:nth-child(4) h2::after {
+    content: ' ';
+    display: inline-block;
+    background: 
+    url(../images/national-post-logo-leaf.png)  center no-repeat;
+    background-size: cover;
+   
+    position: absolute;
+    top:45%;
+    left: 60%;
+
+    width: 10px;
+    height: 10px;
+    
+}
+
+
+section:nth-child(5) h2  {
+    color: rgb(0, 128, 255);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif; ;
+    font-size:2rem;
+    display: inline-block;
+    position: relative;
+    
+    background-color:#0065A4;
+    padding: 0.2rem 1.1rem;
+    margin: 0 2rem;
+}
+
+
+section:nth-child(5) h2>em{
+    font-style: normal;
+    color: aliceblue;
+}
+
+
+section:nth-child(5) h2::before {
+   /* content: '';
+   position: relative;
+   display: inline-block;
+   background: 
+    url(../images/national-post-logo-leaf.png)  center no-repeat;
+    background-size: cover;
+   margin-left: 2rem; */
+   content: '';
+   display:block;
+   background: 
+   url(../images/the-star-bg-left.png)  center no-repeat;
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   right:9rem;
+ 
+
+    
+}
+
+
+section:nth-child(5) h2::after {
+   
+    content: '';
+    display:block;
+    background: 
+    url(../images/the-star-bg-right.png)  center no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:9rem;
+  
+ 
+     
+ }
